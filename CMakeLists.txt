@@ -37,3 +37,34 @@ add_executable(P26_09_24_dz_ex2 P26_09_24_dz_ex2/main.cpp)
 add_executable(P26_09_25_yr_ex1 P26_09_25_yr_ex1/main.cpp)
 add_executable(P26_09_26_yr_ex1 P26_09_26_yr_ex1/main.cpp)
 add_executable(P26_10_01_dz_ex1 P26_10_01_dz_ex1/main.cpp)
+add_executable(P26_10_01_dz_ex2 P26_10_01_dz_ex2/main.cpp)
+add_executable(P26_10_02_yr_ex1 P26_10_02_yr_ex1/main.cpp)
+add_executable(P26_10_03_yr_ex1 P26_10_03_yr_ex1/main.cpp)
+add_executable(P26_10_08_dz_ex1 P26_10_08_dz_ex1/main.cpp)
+add_executable(P26_10_08_dz_ex2 P26_10_08_dz_ex2/main.cpp)
+add_executable(P26_10_09_yr_ex1 P26_10_09_yr_ex1/main.cpp)
+add_executable(P26_10_10_yr_ex1 P26_10_10_yr_ex1/main.cpp)
+add_executable(P26_10_10_yr_ex2 P26_10_10_yr_ex2/main.cpp)
+add_executable(P26_10_15_dz_ex1 P26_10_15_dz_ex1/main.cpp)
+add_executable(P26_10_15_dz_ex2 P26_10_15_dz_ex2/main.cpp)
+add_executable(P26_10_16_yr_ex1 P26_10_16_yr_ex1/main.cpp)
+add_executable(P26_10_17_yr_ex1 P26_10_17_yr_ex1/main.cpp)
+add_executable(P26_10_22_dz_ex1 P26_10_22_dz_ex1/main.cpp)
+add_executable(P26_10_22_dz_ex2 P26_10_22_dz_ex2/main.cpp)
+add_executable(P26_10_28_yr_ex1 P26_10_28_yr_ex1/main.cpp)
+add_executable(P26_10_28_dz_ex1 P26_10_28_dz_ex1/main.cpp)
+add_executable(P26_10_29_yr_ex1 P26_10_29_yr_ex1/main.cpp)
+add_executable(P26_10_29_yr_ex2 P26_10_29_yr_ex2/main.cpp
+        P26_10_29_yr_ex2/point.h
+        P26_10_29_yr_ex2/Rectangele.h
+        P26_10_29_yr_ex2/circle.h)
+add_executable(P26_10_29_yr_ex3 P26_10_29_yr_ex3/main.cpp)
+add_executable(P26_10_29_dz_ex1
+        P26_10_29_dz_ex1/main.cpp
+        P26_10_29_dz_ex1/calc.cpp
+        P26_10_29_dz_ex1/operations.cpp
+        P26_10_29_dz_ex1/calc.h
+        P26_10_29_dz_ex1/operations.h
+)
+
+
