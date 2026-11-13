@@ -66,5 +66,22 @@ add_executable(P26_10_29_dz_ex1
         P26_10_29_dz_ex1/calc.h
         P26_10_29_dz_ex1/operations.h
 )
+add_executable(P26_11_06_yr_ex1 P26_11_06_yr_ex1/main.cpp)
+add_executable(P26_11_07_yr_ex1 P26_11_07_yr_ex1/main.cpp
+        P26_11_07_yr_ex1/Product.cpp
+        P26_11_07_yr_ex1/Product.h
+        P26_11_07_yr_ex1/Student.cpp
+        P26_11_07_yr_ex1/Student.h)
+add_executable(P26_11_12_dz_ex1 P26_11_12_dz_ex1/main.cpp
+        P26_11_12_dz_ex1/Student.cpp
+        P26_11_12_dz_ex1/Student.h)
+add_executable(P26_11_12_dz_ex2
+        P26_11_12_dz_ex2/main.cpp)
+add_executable(P26_11_13_yr_ex1 P26_11_13_yr_ex1/main.cpp
+        P26_11_13_yr_ex1/Digital_counter.cpp
+        P26_11_13_yr_ex1/Digital_counter.h)
+add_executable(P26_11_13_yr_ex2 P26_11_13_yr_ex2/main.cpp
+        P26_11_13_yr_ex2/my_string.cpp
+        P26_11_13_yr_ex2/my_string.h)
 
 

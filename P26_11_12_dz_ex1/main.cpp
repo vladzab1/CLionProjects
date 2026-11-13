@@ -1,50 +1,24 @@
 #include <iostream>
-// #include "Product.h"
 #include "Student.h"
 
-// int counter() {
-//    static int n = 0;
-//    return n++;
-// }
+
 
 int main () {
-   Student student("Dima", 17);
+   int sizeMarks = 10;
+   int * marks = new int [sizeMarks]{4,5,6,1,4,6,7,5,4,3};
+
+   Student student("Dima", 17, marks, sizeMarks);
    student.print();
    std::cout << student.getName() << std::endl;
    std::cout << student.getAge() << std::endl;
+   std::cout << student.getMarks(2) << std::endl;
+   std::cout << student.getMarksSize() << std::endl;
    student.setName("Roma");
    student.setAge(19);
+   student.setMarks(2,10);
+   student.setMarks(5,12);
    student.print();
    Student copy = student;
    copy.print();
-
-
-
-
-
-
-
-
-   // Product test("Test", 37.85);
-   // test.print();
-   // test.setName("Milk");
-   // test.print();
-   // Product copy = test;
-   // copy.print();
-
-   // std::cout << counter() << std::endl;
-   // std::cout << counter() << std::endl;
-   // std::cout << counter() << std::endl;
-   // std::cout << counter() << std::endl;
-   // std::cout << counter() << std::endl;
-   // std::cout << counter() << std::endl;
-
-   // std::cout << p.getCounter() << std::endl;
-   // Product p1("Bread1", 37.86);
-   // p1.print();
-   // std::cout << p1.getCounter() << std::endl;
-   // Product p2("Bread2", 37.87);
-   // p2.print();
-   // std::cout << p2.getCounter() << std::endl;
-
+   delete [] marks;
 }

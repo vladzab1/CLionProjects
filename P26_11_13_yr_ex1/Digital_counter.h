@@ -2,12 +2,18 @@
 // Created by vladosik on 11/13/26.
 //
 
-#ifndef UNTITLED1_DIGITAL_COUNTER_H
-#define UNTITLED1_DIGITAL_COUNTER_H
-
 
 class Digital_counter {
+      int startNum;
+      int endNum;
+      int counter;
+      public:
+      Digital_counter();
+      Digital_counter(int start, int end);
+      void addNumToCounter();
+      int getNumFromCounter();
+      int getStartNum();
+      int getEndNum();
+      void setStartNum(int start);
+      void setEndNum(int end);
 };
-
-
-#endif //UNTITLED1_DIGITAL_COUNTER_H
