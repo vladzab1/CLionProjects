@@ -83,5 +83,11 @@ add_executable(P26_11_13_yr_ex1 P26_11_13_yr_ex1/main.cpp
 add_executable(P26_11_13_yr_ex2 P26_11_13_yr_ex2/main.cpp
         P26_11_13_yr_ex2/my_string.cpp
         P26_11_13_yr_ex2/my_string.h)
+add_executable(P26_11_14_yr_ex1 P26_11_14_yr_ex1/main.cpp
+        P26_11_14_yr_ex1/point.cpp
+        P26_11_14_yr_ex1/point.h)
+add_executable(P26_11_14_yr_ex2 P26_11_14_yr_ex2/main.cpp
+        P26_11_14_yr_ex2/Fraction.cpp
+        P26_11_14_yr_ex2/Fraction.h)
 
 

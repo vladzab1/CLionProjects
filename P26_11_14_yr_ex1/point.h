@@ -1,13 +1,28 @@
 //
 // Created by vladosik on 11/14/26.
 //
+#pragma once
 
-#ifndef UNTITLED1_POINT_H
-#define UNTITLED1_POINT_H
+class Point {
+    int x;
+    int y;
+    public:
+    Point();
+    Point(int x, int y);
+    int getX() const;
+    void setX(int val);
+    int getY() const;
+    void setY(int val);
+    void print() const;
+    Point operator+(const Point& obj);
+    Point operator-(const Point &obj);
+    bool operator==(const Point &obj) const;
+    bool operator!=(const Point &obj) const;
+    Point operator-() const;
+    Point &operator++();
+    Point operator++(int);
+    explicit  operator int();
 
-
-class point {
 };
 
 
-#endif //UNTITLED1_POINT_H

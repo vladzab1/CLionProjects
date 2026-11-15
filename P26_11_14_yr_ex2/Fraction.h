@@ -2,12 +2,20 @@
 // Created by vladosik on 11/14/26.
 //
 
-#ifndef UNTITLED1_FRACTION_H
-#define UNTITLED1_FRACTION_H
-
 
 class Fraction {
+   int numerator;
+   int denominator;
+   public:
+   Fraction();
+   Fraction(int numerator, int denominator);
+   int getNumerator();
+   int getDenominator();
+   void setNumerator(int val);
+   void setDenominator(int val);
+   Fraction simplification();
+   void print();
+
 };
 
 
-#endif //UNTITLED1_FRACTION_H
