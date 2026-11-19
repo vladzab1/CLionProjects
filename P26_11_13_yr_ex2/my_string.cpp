@@ -24,24 +24,29 @@ my_string::my_string(const char * str) {
 
 my_string::my_string(const my_string &obj) {
     length = obj.length;
-    string = new char[strlen(obj.string) + 1]{};
+    string = new char[length]{};
     strcpy(string, obj.string);
 }
 
 void my_string::write_string() {
-    const int size = 500;
+    const int size = 1000;
     char tmp[size];
 
     std::cout << "Enter a text: " << std::endl;
     std::cin.getline(tmp, size);
 
-    delete[] string;
-    length = strlen(tmp) + 1;
-    string = new char[strlen(tmp) + 1]{};
-    strcpy(string, tmp);
+    if (strlen(tmp) +1 > length) {
+        delete[] string;
+        length = strlen(tmp) + 1;
+        string = new char[strlen(tmp) + 1]{};
+        strcpy(string, tmp);
+    } else
+    {
+        strcpy(string, tmp);
+    }
 }
 
-void my_string::print_string() {
+void my_string::print_string() const{
     std::cout << string << std::endl;
 }
 

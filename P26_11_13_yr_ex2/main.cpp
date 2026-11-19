@@ -23,4 +23,5 @@ int main() {
 
     my_string str2;
     str2.write_string();
+    str2.print_string();
 }

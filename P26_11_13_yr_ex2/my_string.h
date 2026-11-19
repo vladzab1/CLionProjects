@@ -1,6 +1,7 @@
 //
 // Created by vladosik on 11/13/26.
 //
+#pragma once
 
 class my_string {
     char * string;
@@ -11,7 +12,7 @@ class my_string {
     my_string(const char * str);
     my_string(const my_string &obj);
     void write_string();
-    void print_string();
+    void print_string() const;
     const char * get_string() const;
     ~my_string();
 };
